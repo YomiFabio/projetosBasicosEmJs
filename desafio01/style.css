@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+input{
+    width: 250px;
+    height: 50px;
+}
+
+#btn{
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    background-color: rebeccapurple;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.txt-btn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color: seashell;
+
+}
+.txt-btn:hover{
+    transition: all .1s ease-in-out;
+    color: white;
+}
+#btn:hover{
+    transition: all .1s ease-in-out;
+    background-color: rgb(128, 0, 255);
+    box-shadow: 0 0 10px 5px rgb(176, 97, 255);
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gerador de PA</title>
+</head>
+<body>
+    <header>
+        <h1>Gerador de progressão</h1>
+    </header>
+
+    <section>
+        <div id="form">
+            <p>
+                Início: 
+                <input type="number" name="begin" id="begin">
+            </p>
+            <p>
+                Fim:
+                <input type="number" name="end" id="end">
+            </p>
+            <p>
+                Passo:
+                <input type="number" name="step" id="step">
+            </p>
+            <p class="btn">
+                <button type="submit" id="btn" onclick="count()">
+                    <p>Contar</p>
+                </button>
+            </p>
+        </div>
+        <div id='contar'>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Fábio Avelino</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

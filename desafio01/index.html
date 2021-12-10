@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio 01</title>
+</head>
+<body>
+    <h1>Nacionalidade</h1>
+    <p>Você é brasileiro ou estrangeiro?</p>
+    <input type="text" id="nacionalidade" placeholder="Qual a sua nacionalidade?" list="nac">
+        <datalist id="nac">
+            <option value="Brasil" id="br"></option>
+            <option value="Outro" id="other"></option>
+        </datalist>
+    <button type="submit" id="btn" onclick="verify()"><p class="txt-btn">Verificar</p></button>
+    <div id="resultado"></div>
+    <script src="script.js"></script>
+</body>
+</html>

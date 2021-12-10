@@ -1,0 +1,54 @@
+
+
+body{
+    background: linear-gradient(#0084ff,#8000ff);
+    background-attachment: fixed;
+    font: normal 15pt sans-serif;
+}
+
+header{
+    text-align: center;
+    color: white;
+}
+
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.596);
+    width: 500px;
+    margin: auto;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 10px;
+}
+div#form > p{
+    display: flex;
+}
+#btn {
+    justify-content: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    background: blueviolet;
+    border-radius: 10px;
+}
+#btn:hover{
+    transition: all .5s ease-in-out;
+    background: #0084ff;
+    box-shadow: 0 0 500px cyan;
+    
+}
+#btn > p {
+    color: rgb(255, 255, 255);
+    font-size: l;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    font-style: italic;
+}

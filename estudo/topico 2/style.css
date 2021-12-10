@@ -1,0 +1,35 @@
+:root{
+    --manha: #ffc355;
+    --tarde: #fc884a;
+    --noite: #303e44;
+}
+
+
+body{
+    background: rgb(70, 142, 236);
+    font: normal 15pt sans-serif;
+}
+
+header{
+    text-align: center;
+    color: white;
+}
+
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.596);
+    width: 500px;
+    margin: auto;
+}
+div{
+    text-align: center;
+    padding: 10px;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
